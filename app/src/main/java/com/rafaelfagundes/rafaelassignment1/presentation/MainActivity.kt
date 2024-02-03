@@ -28,6 +28,7 @@ import androidx.wear.compose.material.Button
 import androidx.wear.compose.material.ButtonDefaults
 import androidx.wear.compose.material.MaterialTheme
 import androidx.wear.compose.material.Text
+import androidx.wear.tooling.preview.devices.WearDevices
 import com.rafaelfagundes.rafaelassignment1.presentation.theme.RafaelAssignment1Theme
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
@@ -168,7 +169,7 @@ fun StopwatchScreen() {
 
 
 
-@Preview(device = Devices.WEAR_OS_SMALL_ROUND, showSystemUi = true)
+@Preview(device = WearDevices.SMALL_ROUND, showSystemUi = true)
 @Composable
 fun DefaultPreview() {
     WearApp()
