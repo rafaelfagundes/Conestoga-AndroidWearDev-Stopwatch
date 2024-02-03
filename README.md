@@ -2,6 +2,8 @@
 
 This is a stopwatch application for Android Wear built with Jetpack Compose.
 
+![GIF Animation](https://raw.githubusercontent.com/rafaelfagundes/Conestoga-AndroidWearDev-Stopwatch/main/assets/Stopwatch.gif)
+
 ## Features
 
 - Stopwatch with start, stop, and reset functionality.
